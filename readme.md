@@ -23,7 +23,7 @@ creator:
 #### Questions
 
 1. What is the difference between *member variables* (also called *instance variables*) and *class variables* (w/ keyword `static`)? Which can be accessed without creating an instance of the class?
-Member variables are unique to each object/instance of a class that is instantiated and the values can be all the same or it can all be different. Changing the instance variable of an object will not effect the values of other objects. Class variables however has the same value for all objects created. Changing a class variable value will apply this value for all other objects
+Member variables are unique to each object/instance of a class that is instantiated and the values can be all the same or it can all be different. Changing the instance variable of an object will not effect the values of other objects. Class variables however has the same value for all objects created. Changing a class variable value will apply this value for all other objects 
 
 2. Does it make sense to write  *getter* and *setter* methods for a `public` member variable? What about `private` variables?
 It doesn't make sense to write "getters" and "setters" methods for a 'public' member variable because everything is already accessible. It is necessary for 'private' member variable because it can only be seen by the class they are in, so in order for the it to access by other classes, they need the "getter" and "setter" methods
